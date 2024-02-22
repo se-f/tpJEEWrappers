@@ -9,9 +9,11 @@ public class MyFilter1 implements Filter
         // Le MyFilter1 va intercepter toute requête ayant pour destination /MyServ
         // (comme configuré dans web.xml)
 {
+        // init pour ajouter des instructions lors de la création du filtre
     public void init (FilterConfig filterConfig)
     {
     }
+        // destroy pour ajouter des instructions lors du destruction du filtre
     public void destroy ()
     {
     }
